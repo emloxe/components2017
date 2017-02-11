@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>向上滚动</title>
+	<style type="text/css">
+		#scroll1,#scroll2{
+			height: 100px;
+			overflow: hidden;
+
+		}
+
+		 li{
+			line-height: 25px;
+			height: 25px;
+		}
+
+		ul{margin: 0;}
+	</style>
+</head>
+<body>
+	<div id = "scroll1">
+	<!-- 注意ul需要清除默认的margin值，也不可设定margin值，如若要设定边距留白可以设置padding值 -->
+        <ul>
+            <li><a href="#">1.学会html5 绝对的屌丝逆袭（案例）</a></li>
+	        <li><a href="#">2.tab页面切换效果（案例）</a></li>
+	        <li><a href="#">3.圆角水晶按钮制作（案例）</a></li>
+	        <li><a href="#">4.HTML+CSS基础课程(系列)</a></li>
+	        <li><a href="#">5.分页页码制作（案例）</a></li>
+	        <li><a href="#">6.导航条菜单的制作（案例）</a></li>
+	        <li><a href="#">7.信息列表制作(案例)</a></li>
+	        <li><a href="#">8.下拉菜单制作(案例)</a><</li>
+	        <li><a href="#">9.如何实现“新手引导”效果</a></li>
+        </ul>
+    </div>
+<br>
+<br>
+			
+<!-- 注意ul需要清除默认的margin值，也不可设定margin值，如若要设定边距留白可以设置padding值 -->
+<!-- li最好设置高度，防止浏览器对不同的字体大小解析的行距不一致 -->
+    <div id = "scroll2">
+        <ul>
+            <li><a href="#">1.学会html5 绝对的屌丝逆袭（案例）</a><span>2013-09-18</span></li>
+	        <li><a href="#">2.tab页面切换效果（案例）</a><span>2013-10-09</span></li>
+	        <li><a href="#">3.圆角水晶按钮制作（案例）</a><span>2013-10-21</span></li>
+	        <li><a href="#">4.HTML+CSS基础课程(系列)</a><span>2013-11-01</span></li>
+	        <li><a href="#">5.分页页码制作（案例）</a><span>2013-11-06</span></li>
+	        <li><a href="#">6.导航条菜单的制作（案例）</a><span>2013-11-08</span></li>
+	        <li><a href="#">7.信息列表制作(案例)</a><span>2013-11-15</span></li>
+	        <li><a href="#">8.下拉菜单制作(案例)</a><span>2013-11-22</span></li>
+	        <li><a href="#">9.如何实现“新手引导”效果</a><span>2013-12-06</span></li>
+        </ul>
+    </div>
+
+    <script type="text/javascript" src="verticalScroll.js"></script>
+    <script type="text/javascript">
+
+    	/*var defaults = {
+			dom : ; // 传入的dom
+            speed : 40, // 滚动速度，数值越大滚动越慢 ，此为调控setInterval调用时间间隔
+            delayTime: 0, // 滚动完成一定高度后，停顿时间
+            delayHeight: 0 // 设定滚动停顿的高度。若设置了delaytime却没设置delayHeight,delayHeight默认为一个li的高度；若没设置delayTime，delayHeight设置无效。设置delayTime、delayHeight请保证li高度统一
+        };*/
+
+    var scroll1 = document.getElementById('scroll1');
+    var scroll2 = document.getElementById('scroll2');
+
+	    new VerticalScroll({
+	    	dom : scroll1,
+	    	delayTime: 2000
+	    	
+	    })
+	    new VerticalScroll({
+	    	dom : scroll2
+	    	
+	    })
+    	
+    </script>
+</body>
+</html>
