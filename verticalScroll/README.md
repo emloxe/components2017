@@ -1,5 +1,7 @@
-# VerticalScroll 向上滚动插件
+# VerticalScroll 信息向上滚动插件
 原生js开发的插件
+[展示地址](https://emloxe.github.io/my-components/verticalScroll/index.html)
+
 
 ## 使用方式
 

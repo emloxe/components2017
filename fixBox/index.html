@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	body{height: 4000px;}
+		#a{display: none;width: 100px;height: 100px; background: #aaa;position: fixed;right: 100px;bottom: 100px;}
+		body{width: 1000px;}
+	</style>
+</head>
+<body>
+ <div id="a"></div>
+<script type="text/javascript" src="fixBox.js" ></script>
+ <script type="text/javascript">
+var a = document.getElementById('a');
+
+fixBox({
+	dom: a,
+	stop: 1200,
+	sbottom: 500,
+	bottom: 100	
+});
+ </script>
+</body>
+</html>
