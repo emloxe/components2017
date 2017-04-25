@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>地址插件预览</title>
+	<style>
+		#addr{}
+		.address { font-size: 15px;width: 400px;position: relative;}
+		.address a{color: #000;text-decoration: none;}
+		.address .icon-close{display: inline-block; vertical-align: middle;width: 16px; height: 16px;background: url("images/icon-close.png")}
+		.ads-search-box{padding: 5px 10px;border: 1px solid #adadad;height: 32px;overflow: hidden;}
+		.address .ads-search-box input{height: 30px;padding: 0 1px; width: 370px;border: 0;}
+		.address .ads-search-box input:focus{ outline: none;}
+		.address .ads-search-item{display: none;}
+		.address .ads-search-item a{color: #c40000; border: 1px solid #c40000; height: 30px;line-height: 30px;display: inline-block;margin-right: 6px;padding: 0 15px; }
+		.address .ads-content{z-index:9999;min-height: 300px; background: #fff;display:none;position: absolute;padding: 0 15px;border: 1px solid #adadad;width: 368px; top: 40px;}
+		.address .ads-content>div{ padding: 10px 0;}
+		.address .ads-c-top{border-bottom: 1px solid #afafaf;}
+		.address .ads-content h5{font-size: 16px; font-weight: normal;line-height: 30px;margin: 0}
+		.address .ads-hot-city,.ads-c-bottom div{padding: 0 20px;}
+		.address .ads-hot-city:after, .ads-c-bottom div:after{ clear: both; content: " "; display: block; height: 0;}
+		.address .ads-content a{min-width: 78px;float: left;margin: 1px;text-align: center;font-size: 15px;line-height: 26px;height: 26px;}
+		.address .ads-content a:hover{color: #c40000; background: #efefef;}
+		.address .ads-content a.active{color: #fff; background: #c40000;}
+	</style>
+</head>
+<body>
+		<div id="addr" class="address">
+
+
+
+		</div>
+
+
+	<!--<div class="address">
+		<div class="ads-search-box">
+			<input type="text"/>
+			<div class="ads-search-item">
+				<a class="choiced-province" href="javascript:void(0)">省 <i class="icon-close"></i></a>
+				<a class="choiced-city" href="javascript:void(0)">市 <i class="icon-close"></i></a>
+				<a class="choiced-district" href="javascript:void(0)">县 <i class="icon-close"></i></a>
+			</div>
+		</div>
+		<div class="ads-content">
+			<div class="ads-c-top">
+				<h5>热门城市</h5>
+				<div class="ads-hot-city">
+					<a href="javascript:void(0)">北京市</a>
+					<a href="javascript:void(0)">天津市</a>
+					<a href="javascript:void(0)">武汉市</a>
+					<a href="javascript:void(0)">北京市</a>
+					<a href="javascript:void(0)">天津市</a>
+					<a href="javascript:void(0)">武汉市</a>
+				</div>
+			</div>
+			<div class="ads-c-bottom">
+				<div class="ads-province">
+					<a href="javascript:void(0)">北京市</a>
+					<a href="javascript:void(0)">天津市</a>
+					<a href="javascript:void(0)">河北省</a>
+					<a href="javascript:void(0)">湖北省</a>
+				</div>
+				<div class="ads-city">
+					<a href="javascript:void(0)">武汉市</a>
+					<a href="javascript:void(0)">黄冈市</a>
+					<a href="javascript:void(0)">襄阳市</a>
+				</div>
+				<div class="ads-district">
+					<a href="javascript:void(0)">武昌区</a>
+					<a href="javascript:void(0)">江夏区</a>
+					<a href="javascript:void(0)">汉口区</a>
+					<a href="javascript:void(0)">汉阳区</a>
+					<a href="javascript:void(0)">洪山区</a>
+					<a href="javascript:void(0)">东西湖区</a>
+					<a href="javascript:void(0)">武昌区</a>
+					<a href="javascript:void(0)">江夏区</a>
+					<a href="javascript:void(0)">汉口区</a>
+					<a href="javascript:void(0)">汉阳区</a>
+					<a href="javascript:void(0)">洪山区</a>
+					<a href="javascript:void(0)">东西湖区</a>
+				</div>
+			</div>
+		</div>
+	</div>-->
+	<script src="cityJson.js"></script>
+	<script src="jquery-1.9.1.min.js"></script>
+	<script src="jq.address.js"></script>
+	<script>
+		$('#addr').address();
+	</script>
+
+
+</body>
+</html>
