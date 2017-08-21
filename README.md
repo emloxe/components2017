@@ -4,8 +4,10 @@
 ## dialog
 浮出层组件
 
+
 ## simple-calender
 日历组件
+![images](./calender.png)
 
 ## VerticalScroll 
 信息向上滚动插件
