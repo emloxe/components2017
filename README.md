@@ -10,24 +10,27 @@
 * [jq.address 地址插件](#jq.address)
 * [jq制作滚动条](#jq制作滚动条)
 
-## <a id="dialog" href="dialog">dialog 浮出层组件</a>
+## <a id="dialog" href="javascript:;">dialog 浮出层组件</a>
 [展示地址](https://emloxe.github.io/my-components/dialog/index.html)
+[查看代码](dialog)
 
-
-## <a id="simple-calender" href="simple-calender">simple-calender 日历组件</a>
+## <a id="simple-calender" href="javascript:;">simple-calender 日历组件</a>
 [展示地址](https://emloxe.github.io/my-components/simple-calender/)
+[查看代码](simple-calender)
 
 ![images](./calender.png)
 
-## <a id="verticalScroll" href="verticalScroll">verticalScroll  信息向上滚动插件</a>
+## <a id="verticalScroll" href="javascript:;">verticalScroll  信息向上滚动插件</a>
 [展示地址](https://emloxe.github.io/my-components/verticalScroll/index.html)
+[查看代码](verticalScroll)
 
-## <a id="fixBox" href="fixBox">fixBox  根据滚动展示隐藏节点</a> 
+## <a id="fixBox" href="javascript:;">fixBox  根据滚动展示隐藏节点</a> 
 [展示地址](https://emloxe.github.io/my-components/fixBox/index.html)
+[查看代码](fixBox)
 
-
-## <a id="jq.address" href="jq.address">jq.address 地址插件</a> 
+## <a id="jq.address" href="javascript:;">jq.address 地址插件</a> 
 [展示地址](https://emloxe.github.io/my-components/jq.address/)
+[查看代码](jq.address)
 
 ![images](./address.png)
 
